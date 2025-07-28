@@ -33,6 +33,7 @@ import { CATEGORIES, TASKS } from "../data";
 
 
 
+
 function App() {
   const [tasks, setTasks] = useState(TASKS);
   const [selectedCategory, setSelectedCategory] = useState("All");
